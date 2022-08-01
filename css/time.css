@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(226, 43%, 10%);
+    font-family: 'Rubik', sans-serif;
+}
+
+.house{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 20px;
+}
+.first{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+
+}
+.box1{
+    background-color:  hsl(236, 100%, 87%);
+    border-radius: 10px;
+}
+.sub{
+    padding: 25px 20px;
+}
+.rep{
+    padding-top: 30px;
+}
+.mon,.dai,.rep{
+    color: hsl(235, 45%, 61%);
+}
+img{
+    width: 70px;
+    height: 70px;
+    /* border: 2px solid white; */
+}
+.image{
+    border: 2px solid white;
+    border-radius: 40px;
+}
+.rob{
+    padding-bottom: 60px;
+    padding-top: 9px;
+    color: rgb(138, 137, 137);
+    font-size: 24px;
+}
+.jer{
+    padding-top: 9px;
+    color: rgb(138, 137, 137);
+    font-size: 24px;
+}
+.day{
+    padding: 17px 20px;
+}
+.mon,.week,.dai{
+    font-size: 20px;
+    padding: 5px 0;
+}
+.week{
+    color: white;
+}
+
+.second{
+    /* background-color: blue; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+}
+
+.up , .down {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.work{
+    background-image: linear-gradient(to right,hsla(15, 100%, 70%, 0.603),hsla(15, 100%, 70%, 0.603)), url(../images/icon-work.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    border-radius: 10px;
+    
+}
+.box2{
+    background-color: hsl(235, 46%, 20%) ;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+.ell{
+    width: 12px;
+    height: 3px;
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+}
+.hrs{
+    font-size: 40px;
+    color:  white;
+
+}
+.box4{
+    padding: 15px 20px;
+}
+.box5 {
+    padding: 20px 20px  ;
+}
+.last{
+    padding-top: 5px;
+    color:  hsl(236, 100%, 87%);
+}
+.text{
+    font-size: 18px;
+    color: white;
+
+}
+.play{
+    background-image: linear-gradient(to right, hsl(195, 74%, 62%, 0.603), hsl(195, 74%, 62%,0.603)), url(../images/icon-play.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    border-radius: 10px;
+}
+.study{
+    background-image: linear-gradient(to right, hsl(348, 100%, 68%,0.603), hsl(348, 100%, 68%,0.603)), url(../images/icon-study.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    border-radius: 10px;
+}
+.exercise{
+    background-image: linear-gradient(to right, hsl(145, 58%, 55%,0.603), hsl(145, 58%, 55%,0.603)), url(../images/icon-exercise.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    border-radius: 10px;
+}
+.social{
+    background-image: linear-gradient(to right, hsl(264, 64%, 52%,0.603), hsl(264, 64%, 52%,0.603)), url(../images/icon-social.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    border-radius: 10px;
+}
+.self{
+    background-image: linear-gradient(to right, hsl(43, 84%, 65%,0.603), hsl(43, 84%, 65%,0.603)), url(../images/icon-self-care.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    border-radius: 10px;
+} 
+
